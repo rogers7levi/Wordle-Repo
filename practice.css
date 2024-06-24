@@ -8,6 +8,7 @@ body {
   gap: 10px;
   grid-auto-rows: minmax(250px, auto);
 }
+
 .one {
   display: flex;
   grid-column: 1/4;
@@ -33,7 +34,6 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   gap: 10px;
   place-items: center;
 }
@@ -57,3 +57,11 @@ body {
   color: white;
   background-color: transparent;
 }
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+
