@@ -33,43 +33,43 @@ function moveToNextBox(currentBox, nextBoxId) {
     }
 }
 
-input1.addEventListener("keypress", function (event) {
+input15.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     alert("You have clicked!");
-    document.getElementById("enterButton1" + input1.id.charAt(0)).click();
+    document.getElementById("enterButton1" + input15.id.charAt(0)).click();
   }
 });
 
-input2.addEventListener("keypress", function (event) {
+input25.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     alert("You have clicked!");
-    document.getElementById("enterButton2" + input2.id.charAt(0)).click();
+    document.getElementById("enterButton2" + input25.id.charAt(0)).click();
   }
 });
 
-input3.addEventListener("keypress", function (event) {
+input35.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     alert("You have clicked!");
-    document.getElementById("enterButton3" + input3.id.charAt(0)).click();
+    document.getElementById("enterButton3" + input35.id.charAt(0)).click();
   }
 });
 
-input4.addEventListener("keypress", function (event) {
+input45.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     alert("You have clicked!");
-    document.getElementById("enterButton4" + input4.id.charAt(0)).click();
+    document.getElementById("enterButton4" + input45.id.charAt(0)).click();
   }
 });
 
-input5.addEventListener("keypress", function (event) {
+input55.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
     alert("You have clicked!");
-    document.getElementById("enterButton5" + input5.id.charAt(0)).click();
+    document.getElementById("enterButton5" + input55.id.charAt(0)).click();
   }
 });
 

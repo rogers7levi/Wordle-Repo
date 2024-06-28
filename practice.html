@@ -10,201 +10,202 @@
     <div class="wrapper">
       <div class="one">Wordle</div>
       <div class="line"></div>
-      <div class="grid-container">
-        <div class="words-row1">
-          <div class="grid-item">
-            <input
-              type="text"
-              id="1-1"
-              oninput="moveToNextBox(this, '1-2')"
-              onkeydown="moveToPrevBox(this, event)"
-              maxlength="1"
-            />
+      <div class="grid-container" id="grid">
+        <div class="grid-container">
+          <div class="words-row1">
+            <div class="grid-item">
+              <input
+                type="text"
+                id="1-1"
+                oninput="moveToNextBox(this, '1-2')"
+                onkeydown="moveToPrevBox(this, event)"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="2-1"
+                oninput="moveToNextBox(this, '2-2')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="3-1"
+                oninput="moveToNextBox(this, '3-2')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="4-1"
+                oninput="moveToNextBox(this, '4-2')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="5-1"
+                oninput="moveToNextBox(this, '5-2')"
+                onkeydown="moveToPrevBox(this, event)"
+                maxlength="1"
+              />
+            </div>
           </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="2-1"
-              oninput="moveToNextBox(this, '2-2')"
-              maxlength="1"
-            />
+          <div class="words-row2">
+            <div class="grid-item">
+              <input
+                type="text"
+                id="1-2"
+                oninput="moveToNextBox(this, '1-3')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="2-2"
+                oninput="moveToNextBox(this, '2-3')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="3-2"
+                oninput="moveToNextBox(this, '3-3')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="4-2"
+                oninput="moveToNextBox(this, '4-3')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="5-2"
+                oninput="moveToNextBox(this, '5-3')"
+                maxlength="1"
+              />
+            </div>
           </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="3-1"
-              oninput="moveToNextBox(this, '3-2')"
-              maxlength="1"
-            />
+          <div class="words-row3">
+            <div class="grid-item">
+              <input
+                type="text"
+                id="1-3"
+                oninput="moveToNextBox(this, '1-4')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="2-3"
+                oninput="moveToNextBox(this, '2-4')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="3-3"
+                oninput="moveToNextBox(this, '3-4')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="4-3"
+                oninput="moveToNextBox(this, '4-4')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="5-3"
+                oninput="moveToNextBox(this, '5-4')"
+                maxlength="1"
+              />
+            </div>
           </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="4-1"
-              oninput="moveToNextBox(this, '4-2')"
-              maxlength="1"
-            />
+          <div class="words-row4">
+            <div class="grid-item">
+              <input
+                type="text"
+                id="1-4"
+                oninput="moveToNextBox(this, '1-5')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="2-4"
+                oninput="moveToNextBox(this, '2-5')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="3-4"
+                oninput="moveToNextBox(this, '3-5')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="4-4"
+                oninput="moveToNextBox(this, '4-5')"
+                maxlength="1"
+              />
+            </div>
+            <div class="grid-item">
+              <input
+                type="text"
+                id="5-4"
+                oninput="moveToNextBox(this, '5-5')"
+                maxlength="1"
+              />
+            </div>
           </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="5-1"
-              oninput="moveToNextBox(this, '5-2')"
-              onkeydown="moveToPrevBox(this, event)"
-              maxlength="1"
-            />
+          <div class="words-row5">
+            <div class="grid-item">
+              <input type="text" id="1-5" maxlength="1" />
+              <button class="enterButton" id="enterButton1">Enter</button>
+            </div>
+            <div class="grid-item">
+              <input type="text" id="2-5" maxlength="1" />
+              <button class="enterButton" id="enterButton2">Enter</button>
+            </div>
+            <div class="grid-item">
+              <input type="text" id="3-5" maxlength="1" />
+              <button class="enterButton" id="enterButton3">Enter</button>
+            </div>
+            <div class="grid-item">
+              <input type="text" id="4-5" maxlength="1" />
+              <button class="enterButton" id="enterButton">Enter</button>
+            </div>
+            <div class="grid-item">
+              <input type="text" id="5-5" maxlength="1" />
+              <button class="enterButton" id="enterButton5">Enter</button>
+            </div>
           </div>
         </div>
-        <div class="words-row2">
-          <div class="grid-item">
-            <input
-              type="text"
-              id="1-2"
-              oninput="moveToNextBox(this, '1-3')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="2-2"
-              oninput="moveToNextBox(this, '2-3')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="3-2"
-              oninput="moveToNextBox(this, '3-3')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="4-2"
-              oninput="moveToNextBox(this, '4-3')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="5-2"
-              oninput="moveToNextBox(this, '5-3')"
-              maxlength="1"
-            />
-          </div>
-        </div>
-        <div class="words-row3">
-          <div class="grid-item">
-            <input
-              type="text"
-              id="1-3"
-              oninput="moveToNextBox(this, '1-4')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="2-3"
-              oninput="moveToNextBox(this, '2-4')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="3-3"
-              oninput="moveToNextBox(this, '3-4')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="4-3"
-              oninput="moveToNextBox(this, '4-4')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="5-3"
-              oninput="moveToNextBox(this, '5-4')"
-              maxlength="1"
-            />
-          </div>
-        </div>
-        <div class="words-row4">
-          <div class="grid-item">
-            <input
-              type="text"
-              id="1-4"
-              oninput="moveToNextBox(this, '1-5')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="2-4"
-              oninput="moveToNextBox(this, '2-5')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="3-4"
-              oninput="moveToNextBox(this, '3-5')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="4-4"
-              oninput="moveToNextBox(this, '4-5')"
-              maxlength="1"
-            />
-          </div>
-          <div class="grid-item">
-            <input
-              type="text"
-              id="5-4"
-              oninput="moveToNextBox(this, '5-5')"
-              maxlength="1"
-            />
-          </div>
-        </div>
-        <div class="words-row5">
-          <div class="grid-item">
-            <input type="text" id="1-5" maxlength="1" />
-            <button class="enterButton" id="enterButton1">Enter</button>
-          </div>
-          <div class="grid-item">
-            <input type="text" id="2-5" maxlength="1" />
-            <button class="enterButton" id="enterButton2">Enter</button>
-          </div>
-          <div class="grid-item">
-            <input type="text" id="3-5" maxlength="1" />
-            <button class="enterButton" id="enterButton3">Enter</button>
-          </div>
-          <div class="grid-item">
-            <input type="text" id="4-5" maxlength="1" />
-            <button class="enterButton" id="enterButton">Enter</button>
-          </div>
-          <div class="grid-item">
-            <input type="text" id="5-5" maxlength="1" />
-            <button class="enterButton" id="enterButton5">Enter</button>
-          </div>
-        </div>
-      </div>
-    </div>
+            </div>
     <script src="practice.js"></script>
   </body>
 </html>
