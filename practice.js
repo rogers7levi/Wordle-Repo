@@ -24,19 +24,17 @@ var input31 = document.getElementById("3-1");
 var input41 = document.getElementById("4-1");
 var input51 = document.getElementById("5-1");
 
-
-
 function moveToNextBox(currentBox, nextBoxId) {
-    var nextBox = document.getElementById(nextBoxId);
-    if (nextBox) {
-      nextBox.focus();
-    }
+  var nextBox = document.getElementById(nextBoxId);
+  if (nextBox) {
+    nextBox.focus();
+  }
 }
 
 input15.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
-    alert("You have clicked!");
+    alert("You are Wrong!");
     document.getElementById("enterButton1" + input15.id.charAt(0)).click();
   }
 });
@@ -74,12 +72,13 @@ input55.addEventListener("keypress", function (event) {
 });
 
 function guessThisWord(word) {
-const keys = word.split('');
-for(let i=0; i < keys.length; i++){
-    const event = new KeyboardEvent('keydown', {key:keys[i]});
+  const keys = word.split("");
+  for (let i = 0; i < keys.length; i++) {
+    const event = new KeyboardEvent("keydown", { key: keys[i] });
     document.dispatchEvent(event);
+  }
+  const enterEvent = new KeyboardEvent("keydown", { key: "Enter" });
 }
-const enterEvent = new KeyboardEvent('keydown', {key: 'Enter'});
-}
- guessThisWord('hello')
+guessThisWord("hello");
+
 
