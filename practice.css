@@ -62,3 +62,9 @@ input:focus {
   background-color: black;
 }
 
+.help {
+  text-align: right;
+  height: 100px;
+}
+
+

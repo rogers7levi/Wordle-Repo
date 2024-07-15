@@ -23,6 +23,8 @@ var input21 = document.getElementById("2-1");
 var input31 = document.getElementById("3-1");
 var input41 = document.getElementById("4-1");
 var input51 = document.getElementById("5-1");
+const helpButton = document.getElementById("help!")
+const popUp = document.getElementById("popUp")
 
 function moveToNextBox(currentBox, nextBoxId) {
   var nextBox = document.getElementById(nextBoxId);
@@ -80,5 +82,17 @@ function guessThisWord(word) {
   const enterEvent = new KeyboardEvent("keydown", { key: "Enter" });
 }
 guessThisWord("hello");
+
+helpButton.addEventListener('click', () => {
+  if(popUp.style.display === 'none') {
+    popUp.style.display = 'block'
+  } else {
+    popUp.style.display = 'none';
+  }
+});
+
+
+
+
 
 
