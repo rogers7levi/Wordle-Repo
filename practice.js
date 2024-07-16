@@ -23,8 +23,9 @@ var input21 = document.getElementById("2-1");
 var input31 = document.getElementById("3-1");
 var input41 = document.getElementById("4-1");
 var input51 = document.getElementById("5-1");
-const helpButton = document.getElementById("help!")
+const helpButton = document.getElementById("help")
 const popUp = document.getElementById("popUp")
+const closeButton = document.querySelector(".close")
 
 function moveToNextBox(currentBox, nextBoxId) {
   var nextBox = document.getElementById(nextBoxId);
@@ -91,6 +92,21 @@ helpButton.addEventListener('click', () => {
   }
 });
 
+helpButton.addEventListener("click", () => {
+  popUp.style.display = 'block'
+});
+
+closeButton.addEventListener("click", () => {
+  popUp.style.display = 'none;'
+});
+
+window.addEventListener('click', (event) => {
+  if(event.target == popUp){
+    popUp.style.display = "none";
+  }
+})
+        
+        
 
 
 
