@@ -1,28 +1,28 @@
-var input15 = document.getElementById("1-5");
-var input25 = document.getElementById("2-5");
-var input35 = document.getElementById("3-5");
-var input45 = document.getElementById("4-5");
-var input55 = document.getElementById("5-5");
-var input14 = document.getElementById("1-4");
-var input24 = document.getElementById("2-4");
-var input34 = document.getElementById("3-4");
-var input44 = document.getElementById("4-4");
-var input54 = document.getElementById("5-4");
-var input13 = document.getElementById("1-3");
-var input23 = document.getElementById("2-3");
-var input33 = document.getElementById("3-3");
-var input43 = document.getElementById("4-3");
-var input53 = document.getElementById("5-3");
-var input12 = document.getElementById("1-2");
-var input22 = document.getElementById("2-2");
-var input32 = document.getElementById("3-2");
-var input42 = document.getElementById("4-2");
-var input52 = document.getElementById("5-2");
-var input11 = document.getElementById("1-1");
-var input21 = document.getElementById("2-1");
-var input31 = document.getElementById("3-1");
-var input41 = document.getElementById("4-1");
-var input51 = document.getElementById("5-1");
+const input15 = document.getElementById("1-5");
+const input25 = document.getElementById("2-5");
+const input35 = document.getElementById("3-5");
+const input45 = document.getElementById("4-5");
+const input55 = document.getElementById("5-5");
+const input14 = document.getElementById("1-4");
+const input24 = document.getElementById("2-4");
+const input34 = document.getElementById("3-4");
+const input44 = document.getElementById("4-4");
+const input54 = document.getElementById("5-4");
+const input13 = document.getElementById("1-3");
+const input23 = document.getElementById("2-3");
+const input33 = document.getElementById("3-3");
+const input43 = document.getElementById("4-3");
+const input53 = document.getElementById("5-3");
+const input12 = document.getElementById("1-2");
+const input22 = document.getElementById("2-2");
+const input32 = document.getElementById("3-2");
+const input42 = document.getElementById("4-2");
+const input52 = document.getElementById("5-2");
+const input11 = document.getElementById("1-1");
+const input21 = document.getElementById("2-1");
+const input31 = document.getElementById("3-1");
+const input41 = document.getElementById("4-1");
+const input51 = document.getElementById("5-1");
 const helpButton = document.getElementById("help")
 const popUp = document.getElementById("popUp")
 const closeButton = document.querySelector(".close")
@@ -106,7 +106,7 @@ window.addEventListener('click', (event) => {
   }
 })
         
-        
+
 
 
 
